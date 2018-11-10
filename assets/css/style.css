@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1px;
+}
+br {
+    background-color: #ccc;
+}
+
+.border-box{
+    border: 1pt solid #ddd;
+}
+.clr-background-white{
+    background-color: white;
+}
+.clr-background-teal{
+    background-color: #4aaaa5 !important;
+}
+.clr-background-gray{
+    background-color: #ccc !important;
+}
+
+.clr-text-title-white{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;    
+    color: white;
+    font-size: 1.6em;
+    line-height: 3em;
+}
+.clr-text-title-teal{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;    
+    color:  #4aaaa5 !important;
+    font-size: 1.6em;
+}
+
+
+.clr-text-gray{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1em;
+    color: gray;
+}
+.clr-text-gray a{
+        text-decoration: none;
+        padding: 10px;
+        color: #666;
+        line-height: 4em;
+    }
+.clr-text-gray a:hover{
+        text-decoration: underline;
+        padding: 10px;
+        color: #777;
+        line-height: 4em;
+    }
+.container{
+    background-color: #ddd;
+    width: 100%;
+}
+.gray-hr{
+    border-bottom: 1pt solid #ccc;
+}
+
+.cnt-body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: #666;
+    line-height: 1.5em;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.row img{
+    float: left;
+    margin-right: 10px;
+}
+
+section{
+    clear: both;
+}
+
+/******** footer section basic css ********/
+footer{
+    width: 100%;
+}
+.footerfloat{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #666;
+    border-top: 2pt solid #4aaaa5;
+    text-align: center;
+    color: #ddd;
+}
+
+* Teal color (used for headings and backgrounds): background-color: `#4aaaa5`; /* teal */
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
