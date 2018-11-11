@@ -8,6 +8,9 @@ br {
     background-color: #ccc;
 }
 
+.leftcol{
+    float: right;
+}
 .border-box{
     border: 1pt solid #ddd;
 }
@@ -16,16 +19,16 @@ br {
 }
 .clr-background-teal{
     background-color: #4aaaa5 !important;
+    border: 10px solid #4aaaa5 !important;
 }
 .clr-background-gray{
     background-color: #ccc !important;
 }
-
 .clr-text-title-white{
     font-family: Georgia, 'Times New Roman', Times, serif !important;    
     color: white;
-    font-size: 1.6em;
-    line-height: 3em;
+    margin-left: -20px;
+    /* line-height: 3em; */
 }
 .clr-text-title-teal{
     font-family: Georgia, 'Times New Roman', Times, serif !important;    
@@ -61,7 +64,6 @@ br {
 
 .cnt-body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
     color: #666;
     line-height: 1.5em;
     padding-left: 20px;
@@ -77,6 +79,49 @@ section{
     clear: both;
 }
 
+button{
+    background-color: #4aaaa5 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;    
+    color: white;
+    margin-bottom: 50px;
+}
+
+table{
+    width: 100%;
+}
+td{
+    margin: 0 auto;
+    width: 33.33%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.container .portfolio-card{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .portcardwrap{
+    position: relative;
+    width: 275px;
+}
+.container .portcardtext{
+    position: absolute;
+    bottom:4%;
+    left: 0;
+    background-color: #4aaaa5; 
+    color: white;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    width: 245px;
+}
+
+
+
+
+
 /******** footer section basic css ********/
 footer{
     width: 100%;
@@ -89,11 +134,3 @@ footer{
     text-align: center;
     color: #ddd;
 }
-
-* Teal color (used for headings and backgrounds): background-color: `#4aaaa5`; /* teal */
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
